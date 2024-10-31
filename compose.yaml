@@ -1,0 +1,8 @@
+services:
+  # python:
+  #   image: python:3.6-slim
+  tensorflow:
+    build:
+      context: .
+    container_name: tf-server
+    command: sleep infinity
